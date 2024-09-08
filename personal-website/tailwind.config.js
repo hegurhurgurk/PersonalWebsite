@@ -16,6 +16,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       blur: {
+        xxs:'2px',
         xs: '7px',
       },
       width: {
@@ -35,6 +36,9 @@ module.exports = {
           '0%':{transform: 'translate(0,-50%)'},
           '100%':{transform:'translate(0,0)'}
         }
+      },
+      fontSize:{
+        '1/19': '9vw'
       }
     },
   },

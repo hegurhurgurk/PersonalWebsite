@@ -17,7 +17,7 @@ export default function Topic({image, title, location, start, end, description, 
                 <div className="w-1/2  text-ellipsis  text-xl line-clamp-3 text-green-500" >
                     {description}
                 </div>
-            <div className="flex flex-col h-full justify-center items-center bg-stone-700 w-16 text-green-500">
+            <div className="flex flex-col h-full justify-center items-center bg-stone-700 w-16 text-green-500 text-5xl">
                 <Link href={link} className="">&#8594; </Link>
             </div>
         </div>
